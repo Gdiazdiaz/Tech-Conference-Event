@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Demo](http://www.microversetechconference.com/)
+[Demo](https://gdiazdiaz.github.io/Tech-Conference-Event/)
 
 ## Loom walkthrough
 
