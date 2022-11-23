@@ -3,7 +3,7 @@
 
 # Microverse Tech Conference
 
-> Portfolio online that showcases all projects I have worked on.
+> Web site with information regarding the event, schedule and speakers for every person interested..
 
 
 ## Built With
@@ -17,7 +17,7 @@
 
 ## Loom walkthrough
 
-
+ [Loom](https://www.loom.com/share/f1b0f861f35340d9a4dad094702ff5ca)
 
 ## Authors
 
