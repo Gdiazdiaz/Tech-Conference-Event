@@ -40,6 +40,7 @@ Give a ⭐️ if you like this project!
 
 - Microverse README template
 - Microverse html&css + javascript linter file
+- Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
 ## 📝 License
 

@@ -436,6 +436,7 @@ a {
 
   .nav-row {
     margin: 0;
+    padding-top: 0;
     justify-content: unset;
     background-color: transparent;
   }
@@ -443,7 +444,7 @@ a {
   .menu-items-mobile {
     display: none;
     flex-direction: column;
-    gap: 15px;
+    gap: 50px;
     width: 100vw;
     text-align: center;
     margin: 0;
@@ -455,8 +456,15 @@ a {
   .button-container-mobile {
     background-color: #eeecec;
     width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
     padding: 0;
     margin: 0;
+    display: none;
+    position: absolute;
+    border-style: dotted;
+    border-color: #d3d3d3;
+    border-width: 8px;
   }
 
   ul {
@@ -469,11 +477,30 @@ a {
 
   .nav {
     justify-content: flex-start;
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  .menu-item {
+    font-size: 14px;
+    font-family: myfont;
+  }
+  .menu-item::after {
+    content: "";
+    display: block;
+    width: 80vw;
+    margin-left: 7%;
+    padding-top: 20px;
+    opacity: 0.9;
+    border-bottom: 3px solid #ec5242;
+    opacity: 0.5;
   }
 
   .nav-menu-mobile {
     display: block;
     gap: 0;
+    padding-top: 0;
+    margin-top: 0;
   }
 
   .nav-menu-desktop {
