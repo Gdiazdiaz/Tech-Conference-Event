@@ -483,15 +483,15 @@ a {
 
   .menu-item {
     font-size: 14px;
-    font-family: myfont;
+    font-family: myfont, sans-serif;
   }
+
   .menu-item::after {
     content: "";
     display: block;
     width: 80vw;
     margin-left: 7%;
     padding-top: 20px;
-    opacity: 0.9;
     border-bottom: 3px solid #ec5242;
     opacity: 0.5;
   }
